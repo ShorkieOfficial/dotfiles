@@ -1,0 +1,20 @@
+[config]
+reload_apps = true
+version_check = true
+
+[config.wallpaper]
+command = "awww img --transition-type wipe {{ image }}"
+set = true
+
+[templates.alacritty]
+input_path = "~/.config/matugen/templates/term-colors.toml"
+output_path = "~/.config/alacritty/colors.toml"
+
+[templates.hydro-shell]
+input_path = "~/.config/hydro-shell/config/colors/hydro-shell-template.qml"
+output_path = "~/.config/hydro-shell/config/colors/MatugenColors.qml"
+
+[templates.mango]
+input_path = "~/.config/matugen/templates/mango-colors.conf"
+output_path = "~/.config/mango/colors.conf"
+post_hook = "mmsg dispatch reload_config"

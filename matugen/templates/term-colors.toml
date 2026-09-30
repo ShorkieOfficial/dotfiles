@@ -1,0 +1,8 @@
+[colors.primary]
+<* if {{is_dark_mode}} *>
+background = "{{colors.on_primary_fixed.dark.hex}}"
+foreground = "{{colors.secondary_container.light.hex}}"
+<* else *>
+background = "{{colors.secondary_container.light.hex}}"
+foreground = "{{colors.on_primary_fixed.dark.hex}}"
+<* endif *>

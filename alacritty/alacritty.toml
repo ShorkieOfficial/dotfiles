@@ -1,0 +1,27 @@
+[window]
+opacity = 0.25
+blur = true
+
+[font]
+normal = {
+    family = "FiraCode",
+    style = "Medium"
+}
+bold = {
+    family = "FiraCode",
+    style = "Bold"
+}
+italic = {
+    family = "FiraCode",
+    style = "Italic"
+}
+bold_italic = {
+    family = "FiraCode",
+    style = "Bold Italic"
+}
+size = 12
+
+[general]
+import = [
+    "~/.config/alacritty/colors.toml"
+]
