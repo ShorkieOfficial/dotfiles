@@ -1,5 +1,4 @@
 #!/bin/sh
-pipewire &
 awww-daemon &
 qs -p ~/.config/hydro-shell &
 mmsg dispatch switch_layout &
